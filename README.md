@@ -7,7 +7,7 @@ Below is a small example of how to use it.
 Run the refactor in terminal:
 
 ```bash
-$ php artisan db:refactor --class="UserTableSeeder"
+$ php artisan db:refactor --class="UsersTableSeeder"
 ```
 
 or programatically in a migration:

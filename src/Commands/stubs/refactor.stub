@@ -1,0 +1,14 @@
+<?php
+
+class DummyClass
+{
+    /**
+     * Run the database refactoring.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        //
+    }
+}

@@ -1,5 +1,11 @@
 # Add database refactors to your Laravel app
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/signifly/laravel-database-refactors.svg?style=flat-square)](https://packagist.org/packages/signifly/laravel-database-refactors)
+[![Build Status](https://img.shields.io/travis/signifly/laravel-database-refactors/master.svg?style=flat-square)](https://travis-ci.org/signifly/laravel-database-refactors)
+[![StyleCI](https://styleci.io/repos/133973365/shield?branch=master)](https://styleci.io/repos/133973365)
+[![Quality Score](https://img.shields.io/scrutinizer/g/signifly/laravel-database-refactors.svg?style=flat-square)](https://scrutinizer-ci.com/g/signifly/laravel-database-refactors)
+[![Total Downloads](https://img.shields.io/packagist/dt/signifly/laravel-database-refactors.svg?style=flat-square)](https://packagist.org/packages/signifly/laravel-database-refactors)
+
 The `signifly/laravel-database-refactors` package allows you to easily add database refactors to your Laravel app.
 
 Below is a small example of how to use it.

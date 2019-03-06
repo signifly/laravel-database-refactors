@@ -32,11 +32,11 @@ class RefactorDbCommand extends Command
         $class = $this->option('class');
 
         if (! class_exists($class)) {
-            throw new Exception('Invalid refactor class: ' . $class);
+            throw new Exception('Invalid refactor class: '.$class);
         }
 
         if (! (new ReflectionClass($class))->hasMethod('run')) {
-            throw new Exception('Method run does not exist on: ' . $class);
+            throw new Exception('Method run does not exist on: '.$class);
         }
 
         (new $class)->run();

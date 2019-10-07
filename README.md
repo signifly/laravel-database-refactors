@@ -13,7 +13,7 @@ Below is a small example of how to use it.
 Run the refactor in terminal:
 
 ```bash
-$ php artisan db:refactor --class="UsersTableRefactor"
+php artisan db:refactor --class="UsersTableRefactor"
 ```
 
 or programatically in a migration:
@@ -41,15 +41,12 @@ Update your `composer.json` file in order to autoload the database refactors:
     },
 ```
 
-## Documentation
-Until further documentation is provided, please have a look at the tests.
-
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-$ composer require signifly/laravel-database-refactors
+composer require signifly/laravel-database-refactors
 ```
 
 The package will automatically register itself.
@@ -57,10 +54,8 @@ The package will automatically register itself.
 ## Testing
 
 ```bash
-$ composer test
+composer test
 ```
-
-TO DO
 
 ## Security
 

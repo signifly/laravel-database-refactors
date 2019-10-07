@@ -25,6 +25,22 @@ Artisan::call('db:refactor', [
 ]);
 ```
 
+**IMPORTANT!** 
+Update your `composer.json` file in order to autoload the database refactors:
+
+```
+    "autoload": {
+        "classmap": [
+            "database/seeds",
+            "database/factories",
+            "database/refactors"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+```
+
 ## Documentation
 Until further documentation is provided, please have a look at the tests.
 

@@ -3,8 +3,8 @@
 namespace Signifly\DatabaseRefactors\Commands;
 
 use Exception;
-use ReflectionClass;
 use Illuminate\Console\Command;
+use ReflectionClass;
 
 class RefactorDbCommand extends Command
 {

@@ -51,6 +51,16 @@ composer require signifly/laravel-database-refactors
 
 The package will automatically register itself.
 
+## Basic Usage
+
+In order to generate a new refactor file, you may use the following command:
+
+```bash
+php artisan make:refactor UsersTableRefactor
+```
+
+The file will be located in the `database/refactors` folder.
+
 ## Testing
 
 ```bash

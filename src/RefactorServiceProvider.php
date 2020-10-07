@@ -15,7 +15,7 @@ class RefactorServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        if ($this->app->runningInConsole()) {
+        if ($this->container->runningInConsole()) {
             $this->commands([
                 RefactorDbCommand::class,
                 RefactorMakeCommand::class,
